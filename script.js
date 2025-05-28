@@ -1,7 +1,8 @@
 (function () {
     const spanEl = document.querySelector('main h2 span');
-    const txtArr = ['Front-End Developer', 'Creative Coder', 'Problem Solver', 'UI/UX Enthusiast', 'Web Innovator'];
-
+    // const txtArr = ['Front-End Developer', 'Creative Coder', 'Problem Solver', 'UI/UX Enthusiast', 'Web Innovator'];
+    txtArr = ['Multicultural Market Analyst', 'Technology-Driven Marketer', 'Innovative Problem Solver', 'Data-Driven Strategist', 'Cross-Cultural Branding Enthusiast'];
+    
     let index = 0;
     let currentTxt = txtArr[index].split("");
 
